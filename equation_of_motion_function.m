@@ -1,4 +1,4 @@
-function [T1,T2,T3] = compute_torquesT(q, qdot, qddot, A)
+function [T1,T2,T3] = equation_of_motion_function(q, qdot, qddot, A)
     
 % Define constants
 m = [0; 1.17; 0.83];
